@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Montez);
+
+body {
+    font-family: 'Montez', cursive;
+}
+.judul{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(160, 58, 17);
+    padding: 16px; 
+    color: cornsilk;
+    font-size: 40px;
+}
+.agregasi {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    background-color:  rgb(189, 70, 23);
+    color: cornsilk;
+    font-size: 24px;
+}
+
+.sub{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(160, 61, 23);
+    padding: 16px; 
+    color: cornsilk;
+    font-size: 32px;   
+}
+.table-data-recap {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.table-data-recap table {
+    margin: 0px 70px;
+    font-size: 25px;
+}
+table, th, td
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+th
+{
+    background-color: rgb(209, 81, 30);
+    color: white;
+    font-size: 30px;
+}
+tr:nth-child(odd)
+{
+    background-color: rgb(138, 58, 26);
+    color: white;
+}
+.penutup{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(104, 38, 12);
+    padding: 16px; 
+    color: cornsilk;
+    font-size: 40px;
+}
+.data-cirebon {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(71, 30, 13);
+    color: white;
+    font-size: 24px;
+
+}
